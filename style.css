@@ -102,3 +102,7 @@ h4 {
     background-color: #D9D8DA;
     padding: 0.5em 1em;
 }
+
+h4:hover {
+    background-color: rgb(182, 182, 182);
+}
