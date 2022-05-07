@@ -53,7 +53,6 @@ li a:hover {
 }
 
 .logo {
-    width: 10em;
     height: 10em;
     position: absolute;
     bottom: 4.8em;
@@ -69,7 +68,37 @@ li a:hover {
     border-radius: 50%;
     align-items: center;
     background-size: cover;
-    height: 9.8em;
-    width: 9.8em;
+    height: 11em;
+    width: 10em;
     padding: 3px;
+}
+
+.second {
+    position: relative;
+    margin-top: 5em;
+    width: 100%;
+}
+
+.second h2 {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;
+}
+
+.list-cources {
+    display: flex;
+    gap: 4em;
+    margin: 2em 2em;
+}
+
+h4 {
+    color: #0B6D6F;
+    text-align: center;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 4px;
+    background-color: #D9D8DA;
+    padding: 0.5em 1em;
 }
